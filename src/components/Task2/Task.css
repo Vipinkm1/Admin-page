@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ top: 0px;
+left: 0px;
+width: 1600px;
+height: 1800px;
+background: #F5F5F5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.top-container{
+    padding: 40px 200px 0px 200px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 620px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.input-box{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    outline: none;   
+}
+.filter{
+    color:#303030 ;
+    font-weight: 600;
+}
+.nav-container-item{
+    width: 260px;
+    height: 80px;
+    background: #FFFFFF;
+   padding: 27px 136px 19px 35px;
+   border-radius: 10px;
+}
+.logo-name{
+    color: #303030;
+    width: 89px; 
+    height: 34px;
+    font: normal normal normal 32px/44px Mongolian Baiti;
+}
+.button{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font: normal normal 600 16px/19px Gilroy;
+    color: #101010;
+    opacity: 1;
+}
+.nav-container-itemses{
+    padding: 31px 70px 30px 70px;
+    width: 260px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    background: #88C2BB;
+}
+.nav-container-itemses2{
+    width: 260px;
+}
+.nav-container2{
+  margin-top: 20px;
+}
+.nav-container-item2{
+    height: 707px;
+  
+}
+.nav-container-items2{
+    height: 600px;
+    width: 620px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    text-align: left;
+}
+.home{
+    font: normal normal 600 16px/19px Gilroy;
+    color: #101010;
+}
+.flex-item{
+   margin-top:40px ;
+   width: 100%;
+}
+p{
+    color: #8D8D8D;
+    font: normal normal 600 16px/19px Gilroy;
+    width: 93px;
+    height: 19px;
+}
+.media{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+    padding:  10px 10px 10px 10px;
+    
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    
+}
+li{
+    width: 5px;
+    height: 8px;
+}
+.text-container{
+    width: 556px;
+    height: 37px;
+    padding: 10px 10px 10px 10px;
+}
+.content{
+    width: 100%;
+    font: normal normal medium 14px/21px Gilroy;
+    font-size: 14px;
+}
+span{
+    width: 70px;
+    height: 16px;
+    text-align: left;
+font: normal normal medium 14px/21px Gilroy;
+letter-spacing: 0px;
+color: #FF5E8A;
+font-size: 14px;
+}
+
+.banner{
+    padding: 40px 10px 10px 10px;
+}
+.back1{
+    margin-top: 20px;
+    width: 244px;
+    height: 126px;
+    border-radius: 10px;
+    background-image: url("../../assests/pexels-ekaterina-12203460.png");
+    padding: 60px 10px 1px 10px;
+}
+.white{
+    width: 100%;
+    text-align: left;
+font: normal normal 600 16px/19px Gilroy;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: 16px;
+}
+.white-2{
+    text-align: left;
+font: normal normal medium 12px/14px Gilroy;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: 12px;
+}
+.top{
+    margin-top: 0px;
+}
+.back2{
+    background-image: url("../../assests/pexels-genaro-servín-763210.png");
+}
+.back3{
+    background-image: url("../../assests/pexels-pixabay-164455.png");
+}
+.back4{
+    background-image: url("../../assests/pexels-steve-johnson-1269968.png");
+}
+.back5{
+    background-image: url("../../assests/pexels-fiona-art-5022849.png");
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 10px 10px 10px;
+    margin-top: 60px;
+    width: 254px;
+}
+.icons-item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.icon-width{
+    width: 22px;
+    height: 22px;
+}
+.nav-container-items22{
+    margin-top: 20px;
+}
+.product-container{
+    width: 252px;
+    height: 180px;
+    margin-top: 30px;
+}
+.product-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 10px;
+}
+.size{
+    font-size: 13px;
+}
+.cre{
+    text-align: left;
+font: normal normal 600 24px/25px Barlow;
+letter-spacing: 0px;
+color: #101010;
+opacity: 1;
+}
+
+.star{
+    width: 14px;
+    height: 14px;
+opacity: 1;
+}
+.product-cart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+.imgs{
+    width: 252px;
+    height: 180px;
+}
+
+.logout{
+    margin-top: 170px;
+    
+}
+.log{
+    color: #88C2BB;
+}
